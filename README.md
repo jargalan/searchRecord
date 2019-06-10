@@ -1,5 +1,5 @@
 # Search Record
-This is a simple web interface that searches records from a database/backend () and displays results in a grid.
+This is a simple web interface that searches records from a database/backend (https://github.com/jargalan/searchRecordAPI) and displays results in a grid.
 
 ### Note
 
