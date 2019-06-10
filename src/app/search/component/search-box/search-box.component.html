@@ -1,0 +1,19 @@
+<form [formGroup]="searchForm" (ngSubmit)="onSearch()">
+  <mat-card class="search-card">
+    <mat-card-header>
+      <mat-card-title>Search</mat-card-title>
+    </mat-card-header>
+    <mat-card-content class="search-box">
+      <div class="form-group">
+        <mat-form-field>
+          <input matInput placeholder="Search records" formControlName="search">
+        </mat-form-field>
+        <div class="search-buttons">
+          <button mat-raised-button color="accent" type="submit">Search</button>
+          <button mat-button type="reset">Reset</button>
+        </div>
+      </div>
+    </mat-card-content>
+    <mat-card-actions class="search-box"></mat-card-actions>
+  </mat-card>
+</form>
